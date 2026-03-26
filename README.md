@@ -35,7 +35,10 @@ Logistic Regression was used because:
 - It is simple and interpretable
 - It provides probability-based predictions
 
-### 3. Model Training
+### 3. Feature Scaling
+Feature scaling was applied using StandardScaler to normalize the dataset. This ensures that all features are on a similar scale, which is important for models like Logistic Regression that are sensitive to the magnitude of input values.
+
+### 4. Model Training
 The model was trained on the training dataset and evaluated on unseen test data.
 
 ---
